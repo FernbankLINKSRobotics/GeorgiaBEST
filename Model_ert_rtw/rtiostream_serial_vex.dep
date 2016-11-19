@@ -1,0 +1,8 @@
+rtiostream_serial_vex.o: \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/rtiostream_serial_vex.c \
+ C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/rtwtypes.h \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h
+
+C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/rtwtypes.h:
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h:

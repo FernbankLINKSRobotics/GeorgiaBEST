@@ -1,0 +1,5 @@
+vex_init.o: \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/vex_init.c \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h:

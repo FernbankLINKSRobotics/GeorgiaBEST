@@ -1,0 +1,29 @@
+ext_svr_serial_transport_vex.o: \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_svr_serial_transport_vex.c \
+ C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/updown_util.h \
+ C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/ext_types.h \
+ C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/ext_share.h \
+ C:/PROGRA~1/MATLAB/R2016a/simulink/include/rtw_extmode.h \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_port.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_pkt.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_utils_vex.c
+
+C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/updown_util.h:
+
+C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/ext_types.h:
+
+C:/PROGRA~1/MATLAB/R2016a/rtw/c/src/ext_mode/common/ext_share.h:
+
+C:/PROGRA~1/MATLAB/R2016a/simulink/include/rtw_extmode.h:
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_port.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_pkt.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/ext_serial_utils_vex.c:

@@ -1,0 +1,26 @@
+pros_rtos_init.o: \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/src/pros_rtos_init.c \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_rtos_init.h \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h \
+ C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/MW_target_hardware_resources.h \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/main.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/include/vex_init.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_wrapper.h \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_rtos_init.h \
+ C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/MW_custom_RTOS_header.h
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_rtos_init.h:
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h:
+
+C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/MW_target_hardware_resources.h:
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/main.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/include/vex_init.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_wrapper.h:
+
+C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/pros_rtos/include/pros_rtos_init.h:
+
+C:/Users/Jonathan/DOCUME~1/FERNBA~1/Code/BEST/GEORGI~1/Model_ert_rtw/MW_custom_RTOS_header.h:

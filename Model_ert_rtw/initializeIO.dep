@@ -1,0 +1,8 @@
+initializeIO.o: \
+ C:/MATLAB/SupportPackages/R2016a/toolbox/target/supportpackages/vexarmcortex/src/initializeIO.c \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/main.h \
+ C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/main.h:
+
+C:/MATLAB/SupportPackages/R2016a/PROS/include/API.h:

@@ -1,0 +1,3 @@
+LIBRARY vexarmcortexlib_sfun.lib
+EXPORTS
+mexFunction
