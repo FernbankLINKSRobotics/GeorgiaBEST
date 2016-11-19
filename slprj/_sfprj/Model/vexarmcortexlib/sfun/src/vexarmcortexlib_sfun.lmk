@@ -1,0 +1,20 @@
+CC     = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -DMX_COMPAT_32 -nodeclspec 
+LDFLAGS = -s -dll -L"C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"vexarmcortexlib_sfun.obj"\
+	"c7_vexarmcortexlib.obj"\
+
+INCLUDE_PATH= -I"C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\include64"  -I"C:\Program Files\MATLAB\R2016a\extern\include"  -I"C:\Program Files\MATLAB\R2016a\simulink\include"  -I"C:\Program Files\MATLAB\R2016a\simulink\include\sf_runtime"  -I"C:\Program Files\MATLAB\R2016a\stateflow\c\mex\include"  -I"C:\Program Files\MATLAB\R2016a\rtw\c\src"  -I"C:\Users\Jonathan\Documents\Fernbank LINKS\Code\BEST\GeorgiaBEST16\slprj\_sfprj\Model\vexarmcortexlib\sfun\src" 
+ 
+
+vexarmcortexlib_sfun.lib : $(MAKEFILE) $(OBJECTS)
+	$(LIBCMD) $(LIBFLAGS) /OUT:vexarmcortexlib_sfun.lib *.obj
+vexarmcortexlib_sfun.obj :	"vexarmcortexlib_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "vexarmcortexlib_sfun.c"
+c7_vexarmcortexlib.obj :	"c7_vexarmcortexlib.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c7_vexarmcortexlib.c"
